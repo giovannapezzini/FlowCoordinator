@@ -111,9 +111,8 @@
 		B14223FD2645FDDD00BCA127 /* FlowCoordinator */ = {
 			isa = PBXGroup;
 			children = (
+				B14225D626464B9800BCA127 /* Coordinator */,
 				B14223FE2645FDDD00BCA127 /* AppDelegate.swift */,
-				B14224342646132500BCA127 /* Coordinator.swift */,
-				B142243C264613D400BCA127 /* FlowCoordinator.swift */,
 				B14224002645FDDD00BCA127 /* SceneDelegate.swift */,
 				B14224CE2646210000BCA127 /* Scenes */,
 				B142240C2645FDDF00BCA127 /* Info.plist */,
@@ -168,6 +167,15 @@
 				B14225382646279A00BCA127 /* Palettes.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B14225D626464B9800BCA127 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B14224342646132500BCA127 /* Coordinator.swift */,
+				B142243C264613D400BCA127 /* FlowCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
