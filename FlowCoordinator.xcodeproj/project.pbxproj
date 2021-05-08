@@ -21,6 +21,7 @@
 		B14224E4264622AB00BCA127 /* ScreenLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14224E3264622AB00BCA127 /* ScreenLabel.swift */; };
 		B14224EF2646251900BCA127 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14224EE2646251900BCA127 /* Button.swift */; };
 		B14225392646279A00BCA127 /* Palettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14225382646279A00BCA127 /* Palettes.swift */; };
+		B14225DB26464C8D00BCA127 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B14225DA26464C8D00BCA127 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B14224E3264622AB00BCA127 /* ScreenLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLabel.swift; sourceTree = "<group>"; };
 		B14224EE2646251900BCA127 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		B14225382646279A00BCA127 /* Palettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palettes.swift; sourceTree = "<group>"; };
+		B14225DA26464C8D00BCA127 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		B14223F22645FDDD00BCA127 = {
 			isa = PBXGroup;
 			children = (
+				B14225DA26464C8D00BCA127 /* README.md */,
 				B14223FD2645FDDD00BCA127 /* FlowCoordinator */,
 				B14224142645FDDF00BCA127 /* FlowCoordinatorTests */,
 				B142241F2645FDDF00BCA127 /* FlowCoordinatorUITests */,
@@ -281,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14225DB26464C8D00BCA127 /* README.md in Resources */,
 				B14224052645FDDF00BCA127 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
