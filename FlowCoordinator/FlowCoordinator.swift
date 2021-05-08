@@ -9,18 +9,30 @@ final class FlowCoordinator: Coordinator {
     }
     
     func dismiss() {
-        navigationController.popViewController(animated: true)
+        navigationController.popViewController(animated: false)
     }
     
     func start() {
         let controller = FirstViewController()
         controller.coordinator = self
-        navigationController.pushViewController(controller, animated: true)
+        navigationController.pushViewController(controller, animated: false)
     }
     
     func secondScreen() {
-        let controller = SecondScreenViewController()
+        let controller = SecondViewController()
         controller.coordinator = self
-        navigationController.pushViewController(controller, animated: true)
+        navigationController.pushViewController(controller, animated: false)
+    }
+    
+    func thirdScreen() {
+        let controller = ThirdViewController()
+        controller.coordinator = self
+        navigationController.pushViewController(controller, animated: false)
+    }
+    
+    func fourthScreen() {
+        let controller = FourthViewController()
+        controller.coordinator = self
+        navigationController.pushViewController(controller, animated: false)
     }
 }
